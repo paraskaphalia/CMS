@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajivtiwari.cms.settings"
+    android:padding="35dp"
+    android:background="#87ceeb"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/change_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_email"
+        android:background="@color/colorAccent"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_password"
+        android:background="@color/colorAccent"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/user_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Details"
+        android:background="@color/colorAccent"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/update_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change phone number"
+        android:background="@color/colorAccent"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/update_linked_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Linked Number"
+        android:background="@color/colorAccent"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="right"
+        android:text="back"/>
+
+</LinearLayout>

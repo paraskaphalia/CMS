@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "508316826673",
+    "firebase_url": "https://childmonitoringsystem-c4e58.firebaseio.com",
+    "project_id": "childmonitoringsystem-c4e58",
+    "storage_bucket": "childmonitoringsystem-c4e58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508316826673:android:a0f24fabbcbf3a42",
+        "android_client_info": {
+          "package_name": "com.example.raj.finalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508316826673-chm0kunk8p7d8sh2m6evog8q3q2uvt1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raj.finalapp",
+            "certificate_hash": "f04068f0de8f2bf758a6ffb2ef64ba14e80eee4e"
+          }
+        },
+        {
+          "client_id": "508316826673-33401593ljqaect3jb7ukdr2o68bun12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp4XL1Rw4w-SmvXAROhqnO5147DzqgT-E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508316826673-33401593ljqaect3jb7ukdr2o68bun12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508316826673:android:2b6680f70ddcbd11",
+        "android_client_info": {
+          "package_name": "com.example.rajivtiwari.cms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508316826673-kmtqstga7o2q2uf8n9o1imge1keeh4v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajivtiwari.cms",
+            "certificate_hash": "60b023d464d4408bcae5fe3ab63785fa4990a0e3"
+          }
+        },
+        {
+          "client_id": "508316826673-33401593ljqaect3jb7ukdr2o68bun12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp4XL1Rw4w-SmvXAROhqnO5147DzqgT-E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508316826673-33401593ljqaect3jb7ukdr2o68bun12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

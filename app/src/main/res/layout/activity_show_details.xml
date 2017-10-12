@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajivtiwari.cms.getNoChild"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_details"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="55dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :  "
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/updateEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textColorHint="@android:color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :  "
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView android:id="@+id/updateFirstName"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:textSize="20sp"
+                android:textColorHint="@android:color/white"/>
+
+            <TextView android:id="@+id/updateLastName"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:textSize="20sp"
+                android:textColorHint="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number :  "
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/updatePhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:textColorHint="@android:color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/parentCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linked Number :  "
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/updateLinkedNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Linked Number"
+            android:textSize="20sp"
+            android:textColorHint="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Type :  "
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/updateLoginType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Login Type"
+            android:textColorHint="@android:color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
